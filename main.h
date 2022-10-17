@@ -16,7 +16,7 @@ int _printf(const char *format, ...)
 	for(p = fmt; *p; p++)
 	{
 		if (*p != "%")
-			putchar(p);
+			putchar(*p);
 			continue;
 
 		switch (++p)
@@ -34,10 +34,11 @@ int _printf(const char *format, ...)
             	putchar('%');
             	break;
             default:
-            	putchar('\n');
+            	putchar(*p);
             	break;
 		}
 	}
+	va_end(ap);
 }
 
 #endif
