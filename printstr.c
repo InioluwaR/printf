@@ -1,22 +1,24 @@
 #include "main.h"
 /**
- * printstr- print string.
+ * print_str- print string.
  * @pa: argument list
  * Return: number string for input
  */
 
-int printstr(va_list pa)
+int print_str(va_list arguments, char *buf, unsigned int ibuf)
 {
-	int len;
 	char *str;
+	unsigned int i;
+	char nill[] = "(null)";
 
-	str = va_arg(pa, char *);
-
+	str = va_arg(arguments, char *);
 	if (str == NULL)
-		str = "(null)";
-	len = 0;
-
-	while (str[len] != '\0')
-		len = len + _putchar(str[len]);
-	return (len);
+	{
+		for (i = 0; nill[i]; i++)
+			ibuf = handl_buf(buf, nill[i], ibuf);
+		return (6);
+	}
+	for (i = 0; str[i]; i++)
+		ibuf = handl_buf(buf, str[i], ibuf);
+	return (i);
 }
