@@ -9,7 +9,7 @@ int _printf(const char *format, ...)
 {
 	/* Declarations */
 	va_list ap;
-	char *tmp, *sval;
+	char *p, *sval;
 
 	/* Statements */
 	va_start(ap, format);
@@ -19,7 +19,7 @@ int _printf(const char *format, ...)
 			putchar(*p);
 			continue;
 
-		switch (++p)
+		switch (*++p)
 		{
 			case 'c':
 				for (sval = va_arg(ap, char *); *sval; sval++)
