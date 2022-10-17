@@ -3,4 +3,12 @@
 
 int _printf(const char *format, ...);
 
+int _printf(const char *format, ...)
+{
+	/* Declarations */
+
+
+	/* Statements */
+}
+
 #endif
