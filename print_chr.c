@@ -7,6 +7,8 @@
  * @ibuf: index for buffer pointer
  * Return: On success 1.
  */
+
+>>>>>>> origin/charity
 int print_chr(va_list arguments, char *buf, unsigned int ibuf)
 {
 	char c;
