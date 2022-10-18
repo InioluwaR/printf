@@ -1,4 +1,5 @@
-**This is a team project** 
+##**Printf**
+Writing our own printf function. This is an ALX C Programming group project.
 
 **Authorised functions and macros**
 - write (man 2 write)
@@ -10,5 +11,5 @@
 - va_arg (man 3 va_arg)
 
 **Authors**\n
-[Charity Roberts](https://github.com/InioluwaR)\n
-[Elijah Gbeminiyi](https://github.com/elijahgbeminiyi)
+- [Charity Roberts](https://github.com/InioluwaR)\n
+- [Elijah Gbeminiyi](https://github.com/elijahgbeminiyi)
