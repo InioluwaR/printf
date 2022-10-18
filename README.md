@@ -1,5 +1,5 @@
-##**Printf**
-Writing our own printf function. This is an ALX C Programming group project.
+# **Printf**
+Writing our own `printf` function. This is an ALX C Programming group project.
 
 **Authorised functions and macros**
 - write (man 2 write)
