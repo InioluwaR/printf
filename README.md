@@ -10,6 +10,6 @@ Writing our own `printf` function. This is an ALX C Programming group project.
 - va_copy (man 3 va_copy)
 - va_arg (man 3 va_arg)
 
-**Authors**\n
-- [Charity Roberts](https://github.com/InioluwaR)\n
+**Authors**
+- [Charity Roberts](https://github.com/InioluwaR)
 - [Elijah Gbeminiyi](https://github.com/elijahgbeminiyi)
